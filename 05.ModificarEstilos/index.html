@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos.css" />
+    <script defer src="./modificarEstilos.js"></script>
+    <title>Document Object Model</title>
+  </head>
+  <body>
+    <div class="contenedor-principal">
+      <div class="contenedor" id="contenedor1">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+      </div>
+      <div class="contenedor" id="contenedor2">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+      </div>
+    </div>
+    <div class="contenedor-principal">
+      <button onclick="agregarClase()">Agregar clase</button>
+      <button onclick="eliminarClase()">Toogle clase</button>
+      <button onclick="toggleClase()">Toogle clase</button>
+      <button onclick="comprobarClase()">Comprobar clase</button>
+      <button onclick="totalClases()">Total clases</button>
+    </div>
+  </body>
+</html>
